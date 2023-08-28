@@ -3,7 +3,7 @@
 ## Overview
 Audits help ensure that security checks are made, as well as monitor for threats, risks, or vulnerabilities that can affect an organization's business continuity and critical assets.
 
-## Scenario
+## Background
 *This scenario is based on a fictional company*
 
 Botium Toys is a small U.S. busienss that develops and sells toys.  The business has a single physical location;
@@ -28,9 +28,10 @@ internal audit to complete a controls assessment and compliance checklist.
 
 ### Scenario
 
-I've received the following email from my IT manager:
+You received the following email from your IT manager:
 
 > Hello!
+>
 > I have completed the audit scope and goals, as well as a risk assessment.  At a high level, the main goals
 > and risks are as follows:
 >
@@ -120,3 +121,27 @@ The goals for Botium Toys' internal IT audit are:
 5. Establish their policies and procedures, which includes their playbook;
 
 6. Ensure they are meeting complianec requirements.
+
+<!--
+Questions to consider:
+
+1. What are the biggest risks to the organization?  The biggest risks to the organization are twofold:
+(a) the company does not have the necessary controls in place to protect its assets, and 
+(b) the company is (likely) not in compliance with required regulations & standards protecting the privacy 
+of its customer's data.
+
+2. Which controls are most essential to implement immedately versus in the future?  First, the company should
+immediately implement administrative controls that align the company's policies and procedures in a manner that
+aligns with regulations regarding customer data privacy.  In the future, the company can pursue technical and
+physical controls that implement the controls in accordance with the company's policies and procedures.
+Essentially, the company must first develop the foundation for compliance with regulations via administrative
+controls, then the company can proceed to build off that foundation with technical and physical controls that
+support and enforce the policies and procedures detailed in the administrative controls.
+
+3. Which compliance regulation does Botium Toys need to adhere to in order to ensure the company keeps customer
+and vendor data safe, avoid fines, etc.?  Since the scenario specifically mentions that the company is wanting
+to conduct business in European countries, the company would have to become compliant with the European Union's
+General Data Protection Regulation (GDPR), which involves (among other things) how companies should protect
+and treat personally identifiable information (PII).
+
+-->
