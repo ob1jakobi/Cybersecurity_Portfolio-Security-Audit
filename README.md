@@ -232,7 +232,7 @@ explanations.
  <col>
  <colgroup span="4"></colgroup>
  <tr>
-   <th colspam="4" scope="colgroup">Administrative Controls</th>
+   <th colspan="4" scope="colgroup">Administrative Controls</th>
  </tr>
  <tr>
    <th scope="col">Control Name</th>
