@@ -122,26 +122,31 @@ The goals for Botium Toys' internal IT audit are:
 
 6. Ensure they are meeting complianec requirements.
 
-<!--
-Questions to consider:
+#### Questions to Consider
 
-1. What are the biggest risks to the organization?  The biggest risks to the organization are twofold:
+*My answers to the following questions are commented-out to provide a good-faith attempt to limit other
+persons pursuing a Google Cybersecurity Certificate from copying my work.*
+
+1. What are the biggest risks to the organization?
+<!--
+The biggest risks to the organization are twofold:
 (a) the company does not have the necessary controls in place to protect its assets, and 
 (b) the company is (likely) not in compliance with required regulations & standards protecting the privacy 
 of its customer's data.
-
-2. Which controls are most essential to implement immedately versus in the future?  First, the company should
-immediately implement administrative controls that align the company's policies and procedures in a manner that
-aligns with regulations regarding customer data privacy.  In the future, the company can pursue technical and
-physical controls that implement the controls in accordance with the company's policies and procedures.
-Essentially, the company must first develop the foundation for compliance with regulations via administrative
-controls, then the company can proceed to build off that foundation with technical and physical controls that
-support and enforce the policies and procedures detailed in the administrative controls.
-
+-->
+2. Which controls are most essential to implement immedately versus in the future?
+<!--
+First, the company should immediately implement administrative controls that align the company's policies
+and procedures with regulations regarding customer data privacy.  Once the company has developed the
+administrative controls that align with regulatory requirements, then the company will have the foundation
+necessary to identify and implment proper technical controls (i.e., software and hardware solutions to protect
+assets) and physical controls (i.e., security cameras, locks, etc.) to ensure assets are adequately protected.
+-->
 3. Which compliance regulation does Botium Toys need to adhere to in order to ensure the company keeps customer
-and vendor data safe, avoid fines, etc.?  Since the scenario specifically mentions that the company is wanting
-to conduct business in European countries, the company would have to become compliant with the European Union's
-General Data Protection Regulation (GDPR), which involves (among other things) how companies should protect
-and treat personally identifiable information (PII).
-
+and vendor data safe, avoid fines, etc.?
+<!--
+Since the scenario specifically mentions that the company is wanting to conduct business in European countries,
+the company would have to become compliant with the European Union's General Data Protection Regulation (GDPR),
+which involves (among other things) how companies should protect and treat personally identifiable information
+(PII).
 -->
