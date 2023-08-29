@@ -162,7 +162,7 @@ which involves (among other things) how companies should protect and treat perso
 > good-faith attempt to limit other persons pursuing a Google Cybersecurity Certificate from copying my work.
 
 > [!NOTE]
-> The exemplar for the Compliance Assessment is located in the `Exemplars` directory.
+> The exemplar for the Compliance Checklist is located in the `Exemplars` directory.
 
 The **compliance regulations and standards** that Botium Toys needs to adhere to are selected (i.e., related
 to conducting business in the E.U., accepting online payments, user permission policies) along with
