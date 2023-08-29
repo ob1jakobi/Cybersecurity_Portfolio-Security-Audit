@@ -53,7 +53,7 @@ You received the following email from your IT manager:
 >
 > Botium Toys IT Manager
 
-#### Supporting Documents
+## Supporting Documents
 
 > [!NOTE]
 > The Audit Scope and Goals and the Risk Assessment documents are located in the `Supporting Documents`
@@ -64,7 +64,7 @@ meant to provide mitigration recommendations for vulnerabilities found that are 
 present an overall strategy for improving the security posture of the organization.  The audit team needs to
 document their findings, provide remediation plans and efforts, and communicate with stakeholders.
 
-#### Scope
+### Scope
 
 The Botium Toys internal IT audit will assess the following:
 
@@ -109,7 +109,7 @@ requirements.
 
 5. Ensure current technology is accounted for (both hardware and system access).
 
-#### Goals
+### Goals
 
 The goals for Botium Toys' internal IT audit are:
 
@@ -125,7 +125,7 @@ The goals for Botium Toys' internal IT audit are:
 
 6. Ensure they are meeting complianec requirements.
 
-### Questions to Consider
+## Questions to Consider
 
 > [!IMPORTANT]
 > My answers to the following questions are commented-out to provide a good-faith attempt to limit other
@@ -155,7 +155,7 @@ which involves (among other things) how companies should protect and treat perso
 (PII).
 -->
 
-#### Compliance Checklist
+## Compliance Checklist
 
 > [!IMPORTANT]
 > The explanations for each checkbox (either checked or un-checked) has been commented-out to provide a
@@ -200,7 +200,7 @@ explanations.
    failures in these aras can lead to fraud.
 -->
 
-#### Controls Assessment
+## Controls Assessment
 
 **Current Assets:** Assets managed by the IT Department for Botium Toys include:
 * On-premises equipment for in-office business needs.
@@ -228,6 +228,7 @@ explanations.
 * Badge readers
 * Legacy system maintenance: end-of-life systems that require human monitoring
 
+<!-- Administrative Controls Assessment Table -->
 <table>
  <col>
  <colgroup span="4"></colgroup>
@@ -236,8 +237,8 @@ explanations.
  </tr>
  <tr>
    <th scope="col">Control Name</th>
-   <th scope="col">Control type and explanation</th>
-   <th scope="col">Needs to be implemented (X)</th>
+   <th scope="col">Control Type and Explanation</th>
+   <th scope="col">Needs to be Implemented (X)</th>
    <th scope="col">Priority</th>
  </tr>
  <tr>
@@ -246,5 +247,159 @@ explanations.
    assets/data they need to do their jobs</td>
    <td>X</td>
    <td>High</td>
+ </tr>
+ <tr>
+   <td>Disaster Recovery Plans</td>
+   <td>Corrective; business continuity to ensure systems are able to run in the event of an (1) an incident,
+   (2) limted/no productivity (3) downtime/impact to system components, including (a) computer room environment
+   (air conditioning, power supply, etc.); (b) hardware (servers, employee equipment); (c) connectivity
+   (internal network, wireless); (d) data and restoration.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Password Policies</td>
+   <td>Preventative; establish password strength rules to improve security/reduce likelihood of account
+   compromise through brute force or dictionary attack techniques.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Access Control Policies</td>
+   <td>Preventative; increase confidentiality and integrity of data.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Account Management Policies</td>
+   <td>Preventative; reduce attack surface and limit overall impact from disgruntled/former employees.</td>
+   <td>X</td>
+   <td>Medium</td>
+ </tr>
+ <tr>
+   <td>Separation of Duties</td>
+   <td>Preventative; ensure no one has so much access that they can abuse the system for personal gain.</td>
+   <td>X</td>
+   <td>Medium</td>
+ </tr>
+</table>
+
+<!-- Technical Controls Assessment Table -->
+<table>
+  <col>
+  <colgroup span="4"></colgroup>
+  <tr>
+    <th colspan="4" scope="colgroup">Technical Controls</th>
+  </tr>
+  <tr>
+    <th scope="col">Control Name</th>
+	<th scope="col">Control Type and Explanation</th>
+	<th scope="col">Needs to be Implemented (X)</th>
+	<th scope="col">Priority</th>
+  </tr>
+  <tr>
+   <td>Firewall</td>
+   <td>Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering
+   internal network.</td>
+   <td>X</td>
+   <td>N/A (already implemented)</td>
+ </tr>
+ <tr>
+   <td>Intrusion Detection System (IDS)</td>
+   <td>Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Encryption</td>
+   <td>Deterrent; makes confidential information/data more secure (e.g., website payment transactions).</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Backups</td>
+   <td>Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery
+   plan.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Password Management System</td>
+   <td>Corrective; password recovery, reset, lock out notifications.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Antivirus (AV) Software</td>
+   <td>Corrective; detect and quarantine known threats.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Manual Monitoring, Maintenance, and Intervention</td>
+   <td>Preventative & Corrective; required for legacy systems to identify and mitigate potiential threats,
+   risks, and vulnerabilities.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+</table>
+
+<!-- Physical Controls Assessment Table -->
+<table>
+  <col>
+  <colgroup span="4"></colgroup>
+  <tr>
+    <th colspan="4" scope="colgroup">Physical Controls</th>
+  </tr>
+  <tr>
+    <th scope="col">Control Name</th>
+	<th scope="col">Control Type and Explanation</th>
+	<th scope="col">Needs to be Implemented (X)</th>
+	<th scope="col">Priority</th>
+  </tr>
+  <tr>
+   <td>Time-controlled Safe</td>
+   <td>Deterrent; reduce attack surface/impact of physical threats.</td>
+   <td>X</td>
+   <td>High</td>
+ </tr>
+ <tr>
+   <td>Adequate Lighting</td>
+   <td>Deterrent; limit "hiding" places to deter threats.</td>
+   <td>X</td>
+   <td>N/A (Not an IT-managed asset)</td>
+ </tr>
+ <tr>
+   <td>Closed-circuit television (CCTV) Surveillance</td>
+   <td>Preventative & Detective; can reduce risk of certain events; can be used after event for
+   investigation.</td>
+   <td>X</td>
+   <td>Medium</td>
+ </tr>
+ <tr>
+   <td>Locking Cabinets (for Network Gear)</td>
+   <td>Preventative; increase integrity by preventing unauthorized personnel/individuls from physically
+   accessing/modifying network infrastructure gear.</td>
+   <td>X</td>
+   <td>Medium</td>
+ </tr>
+ <tr>
+   <td>Signage Indicating Alarm Service Provider</td>
+   <td>Deterrent; makes the likelihood of a successful attack seem low.</td>
+   <td>X</td>
+   <td>N/A (Not an IT-managed asset)</td>
+ </tr>
+ <tr>
+   <td>Locks</td>
+   <td>Preventative; physical and digitial assets are more secure.</td>
+   <td>X</td>
+   <td>N/A (Not an IT-managed asset, unless locks are related to already implemented badge reader locks)</td>
+ </tr>
+ <tr>
+   <td>Fire Detection and Prevention (Fire Alarm, Sprinkler System, etc.)</td>
+   <td>Detective & Preventative; detect fire in the toy store's physical location to prevent damage to
+   inventory, servers, etc..</td>
+   <td>X</td>
+   <td>N/A (Not an IT-managed asset)</td>
  </tr>
 </table>
