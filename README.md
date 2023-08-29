@@ -286,7 +286,7 @@ explanations.
    <td>Separation of Duties</td>
    <td>Preventative; ensure no one has so much access that they can abuse the system for personal gain.</td>
    <td style="text-align: center">X</td>
-   <td>Medium</td>
+   <td>High</td>
  </tr>
 </table>
 
@@ -409,3 +409,10 @@ explanations.
    <td>N/A (Not an IT-managed asset)</td>
  </tr>
 </table>
+
+s## Stakeholder Memorandum
+
+> [!NOTE]
+> The `Memorandum to Stakeholders.pdf` is the document.  The enclosures for the Botium Toys: Audit Scope and
+> Goals, as well as the Botium Toys: Risk Assessment are located in the `Supporting Documents` directory,
+> while the other two enclosures are displayed in this markdown README (the two preceeding sections).
