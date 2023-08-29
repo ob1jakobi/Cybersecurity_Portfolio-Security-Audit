@@ -161,6 +161,9 @@ which involves (among other things) how companies should protect and treat perso
 > The explanations for each checkbox (either checked or un-checked) has been commented-out to provide a
 > good-faith attempt to limit other persons pursuing a Google Cybersecurity Certificate from copying my work.
 
+> [!NOTE]
+> The exemplar for the Compliance Assessment is located in the `Exemplars` directory.
+
 The **compliance regulations and standards** that Botium Toys needs to adhere to are selected (i.e., related
 to conducting business in the E.U., accepting online payments, user permission policies) along with
 explanations.
@@ -201,6 +204,9 @@ explanations.
 -->
 
 ## Controls Assessment
+
+> [!NOTE]
+> The exemplar for the Controls Assessment is located in the `Exemplars` directory.
 
 **Current Assets:** Assets managed by the IT Department for Botium Toys include:
 * On-premises equipment for in-office business needs.
