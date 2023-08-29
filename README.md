@@ -410,7 +410,7 @@ explanations.
  </tr>
 </table>
 
-s## Stakeholder Memorandum
+## Stakeholder Memorandum
 
 > [!NOTE]
 > The `Memorandum to Stakeholders.pdf` is the document.  The enclosures for the Botium Toys: Audit Scope and
