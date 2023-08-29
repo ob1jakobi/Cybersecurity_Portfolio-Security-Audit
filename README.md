@@ -254,32 +254,32 @@ explanations.
    (2) limted/no productivity (3) downtime/impact to system components, including (a) computer room environment
    (air conditioning, power supply, etc.); (b) hardware (servers, employee equipment); (c) connectivity
    (internal network, wireless); (d) data and restoration.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Password Policies</td>
    <td>Preventative; establish password strength rules to improve security/reduce likelihood of account
    compromise through brute force or dictionary attack techniques.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Access Control Policies</td>
    <td>Preventative; increase confidentiality and integrity of data.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Account Management Policies</td>
    <td>Preventative; reduce attack surface and limit overall impact from disgruntled/former employees.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>Medium</td>
  </tr>
  <tr>
    <td>Separation of Duties</td>
    <td>Preventative; ensure no one has so much access that they can abuse the system for personal gain.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>Medium</td>
  </tr>
 </table>
@@ -301,45 +301,45 @@ explanations.
    <td>Firewall</td>
    <td>Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering
    internal network.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>N/A (already implemented)</td>
  </tr>
  <tr>
    <td>Intrusion Detection System (IDS)</td>
    <td>Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Encryption</td>
    <td>Deterrent; makes confidential information/data more secure (e.g., website payment transactions).</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Backups</td>
    <td>Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery
    plan.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Password Management System</td>
    <td>Corrective; password recovery, reset, lock out notifications.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Antivirus (AV) Software</td>
    <td>Corrective; detect and quarantine known threats.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Manual Monitoring, Maintenance, and Intervention</td>
    <td>Preventative & Corrective; required for legacy systems to identify and mitigate potiential threats,
    risks, and vulnerabilities.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
 </table>
@@ -360,46 +360,46 @@ explanations.
   <tr>
    <td>Time-controlled Safe</td>
    <td>Deterrent; reduce attack surface/impact of physical threats.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>High</td>
  </tr>
  <tr>
    <td>Adequate Lighting</td>
    <td>Deterrent; limit "hiding" places to deter threats.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>N/A (Not an IT-managed asset)</td>
  </tr>
  <tr>
    <td>Closed-circuit television (CCTV) Surveillance</td>
    <td>Preventative & Detective; can reduce risk of certain events; can be used after event for
    investigation.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>Medium</td>
  </tr>
  <tr>
    <td>Locking Cabinets (for Network Gear)</td>
    <td>Preventative; increase integrity by preventing unauthorized personnel/individuls from physically
    accessing/modifying network infrastructure gear.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>Medium</td>
  </tr>
  <tr>
    <td>Signage Indicating Alarm Service Provider</td>
    <td>Deterrent; makes the likelihood of a successful attack seem low.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>N/A (Not an IT-managed asset)</td>
  </tr>
  <tr>
    <td>Locks</td>
    <td>Preventative; physical and digitial assets are more secure.</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>N/A (Not an IT-managed asset, unless locks are related to already implemented badge reader locks)</td>
  </tr>
  <tr>
    <td>Fire Detection and Prevention (Fire Alarm, Sprinkler System, etc.)</td>
    <td>Detective & Preventative; detect fire in the toy store's physical location to prevent damage to
    inventory, servers, etc..</td>
-   <td>X</td>
+   <td style="text-align: center">X</td>
    <td>N/A (Not an IT-managed asset)</td>
  </tr>
 </table>
